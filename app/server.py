@@ -4,7 +4,7 @@ from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 import uvicorn, aiohttp, asyncio
 from io import BytesIO
-from fastai2.vision.all import *
+from fastai.vision.all import *
 
 model_file_url = 'https://github.com/psmathur/pets_breeds_classifier/blob/master/pets_res_34_export.pkl?raw=true'
 model_file_name = 'export.pkl'
